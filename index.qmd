@@ -1,7 +1,32 @@
 ---
-title: "meschoen76.github.io"
+title: "Matthew Schoen"
+image: MES_Headshot.jpg
+about: 
+  template: jolla
+  image-shape: round
+  links: 
+    - icon: github
+      text: Github
+      href: hhtps://github.com
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/matthew-schoen-sustainability/
 ---
 
-This is a Quarto website.
+Matthew Schoen is a recent Environmental Studies (B.S.) graduate of the University of California, Santa Barbara. His experience and expertise spans corporate sustainability, waste management & infrastructure, and sustainable community engagement. 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Education
+
+University of California, Santa Barbara | Santa Barbara, CA
+Environmental Studies (B.S.) | September 2022 - June 2026
+GPA: 3.89, 11x Dean's Honors List | Distinguished Alumni 
+
+## Experience
+
+Sustainability Co-op | Kohler Co. | June - December 2025
+
+Commissioner of Environmental Sustainability | Associated Students of the University of California | August 2025 - June 2026
+
+Co-Chair, UCSB Zero Waste Committee | Associated Students of the University of California | June 2024 - June 2026
+
+Founder / Executive Director | UCSB Shoe Recycling | September 2023 - Present 
