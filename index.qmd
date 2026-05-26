@@ -1,6 +1,6 @@
 ---
 title: "Matthew Schoen"
-image: MES_Headshot.jpg
+image: Photos/MES_Headshot.jpeg
 about: 
   template: jolla
   image-shape: round
