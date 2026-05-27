@@ -23,8 +23,11 @@ p, li, span {
 
 /* Navbar */
 .navbar {
-  background: #F4C95D !important;
-  border-bottom: 3px solid #111111 !important;
+  background: rgba(244, 201, 93, 0.72) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  
+  border-bottom: 4px solid rgba(255,255,255,0.35) !important;
 }
 
 /* Links */
