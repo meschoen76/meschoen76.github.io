@@ -1,0 +1,55 @@
+/* Main page background and text */
+html,
+body {
+  background: #ffffff !important;
+  color: #111111 !important;
+}
+
+/* Main content area */
+main,
+.content,
+.page-columns,
+.quarto-container,
+#quarto-content {
+  background: #ffffff !important;
+  color: #111111 !important;
+}
+
+/* Fix headings and paragraph text */
+h1, h2, h3, h4, h5, h6,
+p, li, span {
+  color: #111111;
+}
+
+/* Navbar */
+.navbar {
+  background: rgba(244, 201, 93, 0.72) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  
+  border-bottom: 4px solid rgba(255,255,255,0.35) !important;
+}
+
+/* Links */
+a {
+  color: #4DA3D9 !important;
+}
+
+a:hover {
+  color: #F4C95D !important;
+}
+
+/* Section accent */
+h2 {
+  display: inline-block;
+  border-bottom: 4px solid #6BBF59;
+  padding-bottom: 0.2rem;
+}
+
+
+.carousel-item img {
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+}
