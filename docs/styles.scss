@@ -42,3 +42,11 @@ h2 {
   border-bottom: 4px solid #6BBF59;
   padding-bottom: 0.2rem;
 }
+
+
+.carousel-item img {
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+}

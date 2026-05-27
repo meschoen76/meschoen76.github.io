@@ -1,6 +1,6 @@
 ---
 title: "Matthew Schoen"
-image: Photos/mes_headshot.jpeg
+image: Images/mes_headshot.JPEG
 about: 
   template: jolla
   image-shape: round
@@ -8,9 +8,14 @@ about:
     - icon: github
       text: Github
       href: hhtps://github.com
+      target: _blank
     - icon: linkedin
       text: Linkedin
       href: https://www.linkedin.com/in/matthew-schoen-sustainability/
+      target: _blank
+    - text: Contact Me!
+      href: mailto:meschoen76@gmail.com
+    
 ---
 
 Matthew Schoen is a recent Environmental Studies (B.S.) graduate of the University of California, Santa Barbara. His experience and expertise spans corporate sustainability, waste management & infrastructure, and sustainable community engagement. 
