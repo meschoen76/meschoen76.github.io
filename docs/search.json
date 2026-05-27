@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Matthew Schoen",
@@ -26,5 +19,12 @@
     "title": "Matthew Schoen",
     "section": "Experience",
     "text": "Experience\nSustainability Co-op | Kohler Co. | June - December 2025\nCommissioner of Environmental Sustainability | Associated Students of the University of California | August 2025 - June 2026\nCo-Chair, UCSB Zero Waste Committee | Associated Students of the University of California | June 2024 - June 2026\nFounder / Executive Director | UCSB Shoe Recycling | September 2023 - Present"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]

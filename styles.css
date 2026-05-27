@@ -1,1 +1,33 @@
-/* css styles */
+/* Color palette */
+
+:root {
+  --bg: #FFFFFF;
+  --text: #111111;
+  
+  --yellow: #F4C95D;
+  --blue: #5DADE2;
+  --green: #7BC47F;
+}
+
+/* Navbar */
+.navbar {
+  background: white !important;
+  border-bottom: 2px solid var(--blue);
+}
+
+/* Links */
+a {
+  color: var(--blue);
+}
+
+a:hover {
+  color: var(--green);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--blue);
+  border-color: var(--blue);
+}
+
+

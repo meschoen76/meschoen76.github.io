@@ -1,0 +1,44 @@
+/* Main page background and text */
+html,
+body {
+  background: #ffffff !important;
+  color: #111111 !important;
+}
+
+/* Main content area */
+main,
+.content,
+.page-columns,
+.quarto-container,
+#quarto-content {
+  background: #ffffff !important;
+  color: #111111 !important;
+}
+
+/* Fix headings and paragraph text */
+h1, h2, h3, h4, h5, h6,
+p, li, span {
+  color: #111111;
+}
+
+/* Navbar */
+.navbar {
+  background: #F4C95D !important;
+  border-bottom: 3px solid #111111 !important;
+}
+
+/* Links */
+a {
+  color: #4DA3D9 !important;
+}
+
+a:hover {
+  color: #F4C95D !important;
+}
+
+/* Section accent */
+h2 {
+  display: inline-block;
+  border-bottom: 4px solid #6BBF59;
+  padding-bottom: 0.2rem;
+}
