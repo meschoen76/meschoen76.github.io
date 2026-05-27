@@ -19,8 +19,7 @@ website:
 
 format:
   html:
-    theme: quartz
-    css: styles(V2).scss
+    theme: styles(V2).scss
     toc: true
     page-layout: full
 
