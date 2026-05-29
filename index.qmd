@@ -1,9 +1,10 @@
 ---
 title: "Matthew Schoen"
-image: Images/mes_headshot.JPEG
+image: Images/mes_headshot.JPEG 
 about: 
   template: jolla
   image-shape: round
+  image-alt: "Matthew Schoen Headshot"
   links: 
     - icon: github
       text: Github

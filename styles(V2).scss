@@ -1,11 +1,22 @@
 /*-- scss:defaults --*/
 
 /* Main page background and text */
-html,
-body {
-  background: #ffffff !important;
-  color: #111111 !important;
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background-image: url('images/bosco_background.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  filter: blur(5px);
+  transform: scale(1.05); /* prevents blurry edges */
+
+  z-index: -1;
 }
+
 
 /* Main content area */
 main,
@@ -13,8 +24,15 @@ main,
 .page-columns,
 .quarto-container,
 #quarto-content {
-  background: #ffffff !important;
   color: #111111 !important;
+}
+
+/* Cover image adjustment */
+img[src*="mes_headshot.JPEG"] {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  object-position: 30% 2%;
 }
 
 /* Fix headings and paragraph text */
@@ -25,9 +43,9 @@ p, li, span {
 
 /* Navbar */
 .navbar {
-  background: rgba(244, 201, 93, 0.72) !important;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: rgba(191, 208, 219, 0.5) !important;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   
   border-bottom: 4px solid rgba(255,255,255,0.35) !important;
 }
