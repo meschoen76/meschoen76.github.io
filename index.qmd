@@ -10,7 +10,7 @@ navbar:
 
 ::: {.g-col-12 .g-col-md-4}
 
-![](Images/mes_headshot.JPEG){fig-alt="Matthew Schoen Headshot" width="150%"}
+![](Images/mes_headshot.JPEG){fig-alt="Matthew Schoen Headshot"}
 
 :::
 
