@@ -3,7 +3,6 @@ title: "Matthew Schoen"
 image: Images/mes_headshot.JPEG 
 about: 
   template: jolla
-  image-shape: round
   image-alt: "Matthew Schoen Headshot"
   links: 
     - icon: github
@@ -23,23 +22,14 @@ navbar:
 
 :::{.text-panel-wide}
 
-Matthew Schoen is a recent Environmental Studies (B.S.) graduate of the University of California, Santa Barbara. His experience and expertise spans corporate sustainability, waste management & infrastructure, and sustainable community engagement. 
+Hi, I’m Matthew! 
 
-## Education
+I'm a fourth year Environmental Studies undergraduate at the University of California, Santa Barbara, passionate about turning sustainability strategy into real-world impact. My experience ranges from corporate sustainability operations and supply chain initiatives at Kohler Co. to on-the-ground coalition building for community efforts such as farmers markets, environmental education campaigns, and the nation's first university shoe recycling program!  
 
-University of California, Santa Barbara | Santa Barbara, CA
-Environmental Studies (B.S.) | 
-September 2022 - June 2026 |  GPA: 3.89, 11x Dean's Honors List | 
-Distinguished Alumni | 
+I’m drawn to project management within Sustainability/ESG, especially within the tech, automotive, and textile industries - spaces where innovation, systems thinking, and environmental responsibility must evolve together to meet changing regulations and global demands. My background gives me a well-rounded perspective on how sustainability functions from both the ground-up and the top-down.  
 
-## Experience
+I bring an upbeat, collaborative leadership style and thrive in cross-functional environments where clear communication and execution matter. My interests include the circular economy, renewable energy and resources, and sustainable operations but I’m more than happy to talk about anything & everything track & field, cars, or photography!
 
-Sustainability Co-op | Kohler Co. | June - December 2025
-
-Commissioner of Environmental Sustainability | Associated Students of the University of California | August 2025 - June 2026
-
-Co-Chair, UCSB Zero Waste Committee | Associated Students of the University of California | June 2024 - June 2026
-
-Founder / Executive Director | UCSB Shoe Recycling | September 2023 - Present 
+Always open to connecting, learning, and collaborating on ideas that move sustainability forward & make an impact! 
 
 :::

@@ -4,7 +4,7 @@ body-classes: resume-page
 ---
 :::{.text-panel}
 
-# About My Professional Experiences
+# **My Professional Experiences**
 
 My experience ranges from corporate sustainability operations and supply chain initiatives at Kohler Co. to on-the-ground coalition building for community efforts such as farmers markets, environmental education campaigns, and the nation's first university shoe recycling program.
 
