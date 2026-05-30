@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 
 
-/* Main page background image */
-body::before {
+/* Default background image */
+.default-page::before {
   content: "";
   position: fixed;
   inset: 0;
@@ -20,6 +20,25 @@ body::before {
 
   z-index: -1;
 }
+
+/* Resume background image */
+.resume-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background-image: url('images/cinque_background.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  filter: blur(5px);
+  transform: scale(1.05); /* prevents blurry edges */
+
+  z-index: -1;
+}
+
+
 
 /* Main content area */
 main,

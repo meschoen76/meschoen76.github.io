@@ -1,11 +1,16 @@
 ---
 toc: false
+body-classes: resume-page
 ---
 :::{.text-panel}
 
-You can view or download my resume below.
+# About My Professional Experiences
 
-[Download Resume](Resume/MSchoen_Res_5_27_26.pdf)
+My experience ranges from corporate sustainability operations and supply chain initiatives at Kohler Co. to on-the-ground coalition building for community efforts such as farmers markets, environmental education campaigns, and the nation's first university shoe recycling program.
+
+I've held multiple leadership roles - managing teams of up to 12 individuals, budgets in excess of $30,000, and overseeing largescale projects. I pride myself on my systematic approach to project management by  utilizing programs like Excel to track tasks and stay on top of deadlines (**I leave no spreadsheet unturned!**) Within all my teams, I emphasize the importance of **clear** & **specific** communication and urge individuals to voice their feelings and opinions no matter if they go against mine. *Diverse perspectives inspires creative ideas and solutions to challenging problems!*
+
+For those interested in seeing a formal write-up of my experiences, feel free to check out my resume below:
 
 <iframe src="Resume/MSchoen_Res_5_27_26.pdf" width="100%" height="800px"></iframe>
 

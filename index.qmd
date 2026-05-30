@@ -16,7 +16,9 @@ about:
       target: _blank
     - text: Contact Me!
       href: mailto:meschoen76@gmail.com
-    
+body-classes: default-page
+navbar:
+  pinned: True
 ---
 
 :::{.text-panel-wide}

@@ -5,8 +5,7 @@ project:
 website:
   title: "Matthew Schoen"
   navbar:
-    pinned: True
-    right:
+    left:
       - href: index.qmd
         text: Home
       - href: about.qmd
