@@ -19,6 +19,8 @@ about:
     
 ---
 
+:::{.text-panel-wide}
+
 Matthew Schoen is a recent Environmental Studies (B.S.) graduate of the University of California, Santa Barbara. His experience and expertise spans corporate sustainability, waste management & infrastructure, and sustainable community engagement. 
 
 ## Education
@@ -37,3 +39,5 @@ Commissioner of Environmental Sustainability | Associated Students of the Univer
 Co-Chair, UCSB Zero Waste Committee | Associated Students of the University of California | June 2024 - June 2026
 
 Founder / Executive Director | UCSB Shoe Recycling | September 2023 - Present 
+
+:::

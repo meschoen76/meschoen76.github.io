@@ -1,5 +1,12 @@
 ---
-title: "Resume"
+toc: false
 ---
+:::{.text-panel}
 
-[]!(Resume/MSchoen_Res_5_27_26.pdf)
+You can view or download my resume below.
+
+[Download Resume](Resume/MSchoen_Res_5_27_26.pdf)
+
+<iframe src="Resume/MSchoen_Res_5_27_26.pdf" width="100%" height="800px"></iframe>
+
+:::

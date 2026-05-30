@@ -1,6 +1,10 @@
 /*-- scss:defaults --*/
 
-/* Main page background and text */
+/* Importing Fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+
+/* Main page background image */
 body::before {
   content: "";
   position: fixed;
@@ -16,7 +20,6 @@ body::before {
 
   z-index: -1;
 }
-
 
 /* Main content area */
 main,
@@ -41,14 +44,76 @@ p, li, span {
   color: #111111;
 }
 
-/* Navbar */
+
+/* Making Text Panels */
+.page-columns .text-panel {
+  grid-column: screen-start / screen-end;
+}
+
+.text-panel {
+  background: rgba(255, 255, 255, 0.75);
+  color: #111111;
+
+  position: relative;
+  left: 50%;
+  right: 50%;
+
+  width: 100vw;
+  max-width: 100vw;
+
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  padding: 1.5rem max(2rem, calc((100vw - 900px) / 2));
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  box-sizing: border-box;
+}
+
+.text-panel-wide {
+  background: rgba(255, 255, 255, 0.75);
+  color: #111111;
+
+  position: relative;
+  left: 50%;
+  right: 50%;
+
+  width: 100vw;
+  max-width: 100vw;
+
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  padding: 3rem max(2rem, calc((100vw - 900px) / 2));
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  box-sizing: border-box;
+}
+
+/* Navbar Adjustments */
+.navbar {
+  min-height: 80px;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;}
+  
 .navbar {
   background: rgba(191, 208, 219, 0.5) !important;
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   
-  border-bottom: 4px solid rgba(255,255,255,0.35) !important;
+  border-bottom: 4px solid rgba(255,255,255,0.4) !important;
 }
+
+.navbar-title {
+  font-size: 1.65rem;
+  font-weight: 600;
+  font-family: 'Cormorant Garamond';
+}
+
+
+
 
 /* Links */
 a {

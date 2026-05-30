@@ -1,13 +1,15 @@
 ---
 title: "About Me!"
+toc: false
 ---
 
+:::{.text-panel}
 ## Background 
 
 Originating from a Military family, Matthew Schoen spent first half of his childhood in Fairfax County, VA with a brief stint in Okinawa, Japan, before moving to North County San Diego, CA in 2016. 
 
 The transition from playing in the woods after school to walking along the beach jump-started Matthew's love for the natural environment. Compounded by experiences as a Boy Scout and being a PADI certified advanced open water diver, he decided to pursue a degree in Environmental Studies at the University of California, Santa Barbara. 
-
+:::
 ## Education 
 
 
@@ -17,6 +19,8 @@ The transition from playing in the woods after school to walking along the beach
 
 # Interests
 
+
+::: {.text-panel}
 ## *Travel*
 
 So far, I've been fortunate enough to live in 3 continents - *North America, Europe & Asia* - and travel to 10 countries. 
@@ -74,6 +78,8 @@ So far, I've been fortunate enough to live in 3 continents - *North America, Eur
 I believe immersing myself in different cultures, languages, & beliefs in crucial to my understanding of the world. It's incredibly eye-opening as I've come to realize early in my life how much of a privilege it is to call the United States my home. 
 
 However, I plan on working abroad for 1-2 years sometime during my 20s! 
+
+:::
 
 # Hobbies 
 

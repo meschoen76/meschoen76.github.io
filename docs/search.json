@@ -4,21 +4,21 @@
     "href": "index.html",
     "title": "Matthew Schoen",
     "section": "",
-    "text": "Matthew Schoen is a recent Environmental Studies (B.S.) graduate of the University of California, Santa Barbara. His experience and expertise spans corporate sustainability, waste management & infrastructure, and sustainable community engagement."
+    "text": "Matthew Schoen is a recent Environmental Studies (B.S.) graduate of the University of California, Santa Barbara. His experience and expertise spans corporate sustainability, waste management & infrastructure, and sustainable community engagement.\n\n\nUniversity of California, Santa Barbara | Santa Barbara, CA Environmental Studies (B.S.) | September 2022 - June 2026 | GPA: 3.89, 11x Dean’s Honors List | Distinguished Alumni |\n\n\n\nSustainability Co-op | Kohler Co. | June - December 2025\nCommissioner of Environmental Sustainability | Associated Students of the University of California | August 2025 - June 2026\nCo-Chair, UCSB Zero Waste Committee | Associated Students of the University of California | June 2024 - June 2026\nFounder / Executive Director | UCSB Shoe Recycling | September 2023 - Present"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Matthew Schoen",
-    "section": "Education",
-    "text": "Education\nUniversity of California, Santa Barbara | Santa Barbara, CA Environmental Studies (B.S.) | September 2022 - June 2026 | GPA: 3.89, 11x Dean’s Honors List | Distinguished Alumni |"
+    "section": "",
+    "text": "University of California, Santa Barbara | Santa Barbara, CA Environmental Studies (B.S.) | September 2022 - June 2026 | GPA: 3.89, 11x Dean’s Honors List | Distinguished Alumni |"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Matthew Schoen",
-    "section": "Experience",
-    "text": "Experience\nSustainability Co-op | Kohler Co. | June - December 2025\nCommissioner of Environmental Sustainability | Associated Students of the University of California | August 2025 - June 2026\nCo-Chair, UCSB Zero Waste Committee | Associated Students of the University of California | June 2024 - June 2026\nFounder / Executive Director | UCSB Shoe Recycling | September 2023 - Present"
+    "section": "",
+    "text": "Sustainability Co-op | Kohler Co. | June - December 2025\nCommissioner of Environmental Sustainability | Associated Students of the University of California | August 2025 - June 2026\nCo-Chair, UCSB Zero Waste Committee | Associated Students of the University of California | June 2024 - June 2026\nFounder / Executive Director | UCSB Shoe Recycling | September 2023 - Present"
   },
   {
     "objectID": "about.html",
@@ -51,8 +51,15 @@
   {
     "objectID": "resume.html",
     "href": "resume.html",
+    "title": "Matthew Schoen",
+    "section": "",
+    "text": "You can view or download my resume below.\nDownload Resume"
+  },
+  {
+    "objectID": "resume.html#resume",
+    "href": "resume.html#resume",
     "title": "Resume",
     "section": "",
-    "text": "[]!(Resume/MSchoen_Res_5_27_26.pdf)"
+    "text": "You can view or download my resume below.\nDownload Resume"
   }
 ]
