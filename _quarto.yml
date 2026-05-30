@@ -16,6 +16,13 @@ website:
         text: Resume
       - href: photos.qmd
         text: Photos 
+    right:
+      - icon: github
+        href: https://github.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/matthew-schoen-sustainability/
+      - icon: envelope
+        href: mailto:meschoen76@gmail.com
 
 format:
   html:

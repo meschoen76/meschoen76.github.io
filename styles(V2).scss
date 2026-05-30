@@ -21,6 +21,23 @@
   z-index: -1;
 }
 
+/* Index background image */
+.default-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background-image: url('images/bosco_background.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  filter: blur(5px);
+  transform: scale(1.05); /* prevents blurry edges */
+
+  z-index: -1;
+}
+
 /* Resume background image */
 .resume-page::before {
   content: "";
@@ -66,10 +83,9 @@ main,
 
 /* Cover image adjustment */
 img[src*="mes_headshot.JPEG"] {
-  width: 500px;
-  height: 500px;
-  object-fit: cover;
-  object-position: 30% 2%;
+  width: 600px;
+  height: 550px;
+  object-position: 40% 2%;
 }
 
 /* Fix headings and paragraph text */
@@ -126,6 +142,16 @@ p, li, span {
   box-sizing: border-box;
 }
 
+.text-panel-index {
+  background-color: rgba(255,255,255,0.75);
+  padding: 2rem;
+  border-left: 16px;
+  height: 550px;
+}
+
+
+
+
 /* Navbar Adjustments */
 .navbar {
   min-height: 80px;
@@ -146,12 +172,9 @@ p, li, span {
   font-family: 'Cormorant Garamond';
 }
 
-
-
-
 /* Links */
 a {
-  color: #4DA3D9 !important;
+  color: rgba(255,255,255,0.9) !important;
 }
 
 a:hover {
