@@ -2,6 +2,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/personal_project.html",
       "/projects/shoe_recycling.html"
     ]
   }

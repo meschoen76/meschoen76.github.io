@@ -1,7 +1,7 @@
 ---
 title: "Personal Project: Analyzing Activity Based On Key Health Factors"
 description: "Analyzing how key factors such as sleep, caffeine intake, & workout type influence overall daily activity measured through the number of steps taken." 
-image: "Images/shoerecycling_heroshot.JPG"
+image:
 
 format: 
   html:

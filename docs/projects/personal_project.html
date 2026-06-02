@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="The Nation’s First-ever University-Wide Shoe Recycling Program">
+<meta name="description" content="Analyzing how key factors such as sleep, caffeine intake, &amp; workout type influence overall daily activity measured through the number of steps taken.">
 
-<title>UCSB Shoe Recycling – Matthew Schoen</title>
+<title>Personal Project: Analyzing Activity Based On Key Health Factors – Matthew Schoen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,35 +70,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -169,10 +140,10 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">UCSB Shoe Recycling</h1>
+      <h1 class="title">Personal Project: Analyzing Activity Based On Key Health Factors</h1>
                   <div>
         <div class="description">
-          The Nation’s First-ever University-Wide Shoe Recycling Program
+          Analyzing how key factors such as sleep, caffeine intake, &amp; workout type influence overall daily activity measured through the number of steps taken.
         </div>
       </div>
                 </div>
@@ -190,22 +161,8 @@ window.Quarto = {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#project-summary" id="toc-project-summary" class="nav-link active" data-scroll-target="#project-summary">Project Summary</a></li>
-  <li><a href="#why-shoes" id="toc-why-shoes" class="nav-link" data-scroll-target="#why-shoes">Why Shoes?</a></li>
-  <li><a href="#program-overview" id="toc-program-overview" class="nav-link" data-scroll-target="#program-overview">Program Overview:</a>
-  <ul class="collapse">
-  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How It Works</a></li>
-  <li><a href="#who-is-involved" id="toc-who-is-involved" class="nav-link" data-scroll-target="#who-is-involved">Who Is Involved?</a></li>
-  </ul></li>
-  <li><a href="#the-stats" id="toc-the-stats" class="nav-link" data-scroll-target="#the-stats">The Stats</a></li>
-  <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">What’s Next?</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -214,79 +171,8 @@ window.Quarto = {
 
 
 
-<p><img src="../../Images/shoerecycling_heroshot.JPG" class="img-fluid"></p>
-<section id="project-summary" class="level1">
-<h1>Project Summary</h1>
-<p>Founded in September, 2023 through the UC Santa Barbara’s <em>Environmental Leadership Incubator (ELI)</em>, UCSB Shoe Recycling is the nation’s first campus-wide shoe recycling program. It operates year-round with a main collection station located in the lobby of the campus Recreation Center and the Intercollegiate Athletics Center.</p>
-<p>During the final two weeks of Fall &amp; Spring quarter, additional collection locations are staged within the lobbies of all on-campus housing.</p>
-<p>Since its inception, the program has collected over 2700 pairs of shoes, diverted 75,000+ lbs of <span class="math inline">\(CO^2\)</span>, and saved over 5.65 millions gallons of water!</p>
-</section>
-<section id="why-shoes" class="level1">
-<h1>Why Shoes?</h1>
-<p>As a Track &amp; Field athlete, it was normal for my peers and I to go through 2-3 pairs of sneakers annually. It always bothered me how once I was done with a pair, the only place for them to go was the trash. After doing some research, I found a program supported through a <em>very well known</em> shoe company who claimed anyone could recycle <em>any</em> type of shoe with them through their in-store take-back system.</p>
-<p>So… I started a collection of “dead shoes” in the trunk of my car and once I decided I was sick of hauling them around, I tried to drop them off at the shoe maker’s local store. When I walked in with my shoes and asked where I should put them, the employees looked at me and blinked in confusion before telling me they had never heard of such a program and if one existed, their store didn’t support it.</p>
-<p>I was confused but also frustrated. It begged the question: “How was a textile powerhouse like this going to market a program along with their products as sustainable yet not support a basic recycling program nationwide?”</p>
-<p><strong>Little did I know that this first-hand experience of green washing was the start of me going down a very long rabbit hole….</strong>*</p>
-<p>In September 2023, I began taking part in the <a href="https://eli.ucsb.edu/">Environmental Leadership Incubator</a>, a year-long program run through UCSB’s Environmental Studies department aimed at helping students develop critical leadership, project management, and communication skills while implementing a sustainability project. <em>This was my chance to address the at hand and make a change for the better.</em></p>
-<p>I started researching footwear waste statistics as part of the “project validation” phase of ELI. Some of the facts I found were staggering…</p>
-<ul>
-<li>Americans throw away a staggering <strong>300 million pairs* of sneakers annually</strong></li>
-<li>Footwear under the broader context of the textile industry, produces approximately <strong>17 million tons of waste a year</strong></li>
-<li>Approximately <strong>313 million metric tons</strong> of carbon dioxide [is annually produced from the footwear industry], equivalent to the emissions from <strong>66 million cars</strong></li>
-</ul>
-<p>This was all the motivation I needed to make my vision for an increasingly circular world a reality.</p>
-</section>
-<section id="program-overview" class="level1">
-<h1>Program Overview:</h1>
-<section id="how-it-works" class="level2">
-<h2 class="anchored" data-anchor-id="how-it-works">How It Works</h2>
-<p>So what did I create?</p>
-<p>Using bins located in the lobby of the UCSB Recreation Center, students, staff, faculty, &amp; local residents are free to recycle their shoes in collection bins.</p>
-<p>The shoes are then collected, sorted, and shipped to <a href="https://gotsneakers.com/">GotSneakers</a> in Miami, Florida.</p>
-<p>Shoes in unusable condition get shipped to <em>Fast Feet Grinded</em> in the Netherlands where they’re broken down and sorted into their constituent materials and sold to be reused in products ranging from carpet padding, insulation, and even field turf.</p>
-</section>
-<section id="who-is-involved" class="level2">
-<h2 class="anchored" data-anchor-id="who-is-involved">Who Is Involved?</h2>
-<div class="grid">
-<div class="g-col-12 g-col-md-4">
-<p><img src="Images/mes_headshot.JPEG" class="profile-image img-fluid" alt="Matthew Schoen Headshot"></p>
-<p><strong>UCSB Zero Waste Committee</strong></p>
-<p><em>Responsibilities:</em></p>
-<ul>
-<li><p>All forms of public outreach (on-campus and off-campus)</p></li>
-<li><p>Coordinating collection drive events</p></li>
-</ul>
-</div>
-<div class="g-col-12 g-col-md-4">
-<p><strong>AS Recycling</strong></p>
-<p><em>Responsibilities:</em></p>
-<ul>
-<li><p>On-campus collection and storage of all shoes</p></li>
-<li><p>Sorting &amp; packaging of shoes</p></li>
-<li><p>Shipping shoes to GotSneakers via the on-campus post-office</p></li>
-</ul>
-</div>
-<div class="g-col-12 g-col-md-4" style="display:flex; flex-direction:column; justify-content:center;">
-<p><strong>GotSneakers LLC.</strong></p>
-<p><em>Responsibilities:</em></p>
-<ul>
-<li><p>Supplying collection bins</p></li>
-<li><p>Supplying shipping bags</p></li>
-<li><p>Covering ALL COSTS associated with the program</p></li>
-</ul>
-</div>
-</div>
-</section>
-</section>
-<section id="the-stats" class="level1">
-<h1>The Stats</h1>
-<p><img src="../../Images/ASRTruck.jpg" class="img-fluid"> # National Expansion</p>
-</section>
-<section id="whats-next" class="level1">
-<h1>What’s Next?</h1>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
