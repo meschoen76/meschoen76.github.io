@@ -9,10 +9,9 @@ format:
     toc: true
     title-block-banner: true
 ---
+# Project Summary 
 
 ![](../../Images/shoerecycling_heroshot.JPG)
-
-# Project Summary 
 
 Founded in September, 2023 through the UC Santa Barbara's *Environmental Leadership Incubator (ELI)*, UCSB Shoe Recycling is the nation's first campus-wide shoe recycling program. It operates year-round with a main collection station located in the lobby of the campus Recreation Center and the Intercollegiate Athletics Center. 
 
@@ -54,11 +53,30 @@ Shoes in unusable condition get shipped to *Fast Feet Grinded* in the Netherland
 
 ## Who Is Involved? 
 
+::: {style="margin: 0 auto;"}
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4 .d-flex .justify-content-center .align-items-center}
+![](../Images/ZWC logo_transparent.png){width="80%"}
+::: 
+
+::: {.g-col-12 .g-col-md-4 .d-flex .justify-content-center .align-items-center}
+![](../Images/ASRLogo.png)
+::: 
+
+::: {.g-col-12 .g-col-md-4 .d-flex .justify-content-center .align-items-center}
+![](../Images/gslogo.png)
+:::
+
+::::
+:::
+
+
+::: {style="margin: 0 auto;"}
+
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-
-![](Images/mes_headshot.JPEG){.profile-image fig-alt="Matthew Schoen Headshot"}
 
 **UCSB Zero Waste Committee**
 
@@ -84,7 +102,7 @@ Shoes in unusable condition get shipped to *Fast Feet Grinded* in the Netherland
 
 :::
 
-::: {.g-col-12 .g-col-md-4 style="display:flex; flex-direction:column; justify-content:center;"}
+::: {.g-col-12 .g-col-md-4}
 
 **GotSneakers LLC.**
 
@@ -100,8 +118,57 @@ Shoes in unusable condition get shipped to *Fast Feet Grinded* in the Netherland
 
 ::::
 
+:::
+
 # The Stats
-![](../../Images/ASRTruck.jpg)
+![](../Images/ASRTruck.jpg){width="50%" fig-align="center"}
+
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4 style="display:flex; flex-direction:column; justify-content:center; text-align:center;"}
+
+[**2700+**]{style="font-size:150%;"}
+
+Pairs of Shoes Collected 
+
+:::
+
+::: {.g-col-12 .g-col-md-4 style="display:flex; flex-direction:column; justify-content:center; text-align:center;"}
+
+[**~75,000+**]{style="font-size:150%;"}
+
+lbs of $CO^2$ diverted
+
+:::
+
+::: {.g-col-12 .g-col-md-4 style="display:flex; flex-direction:column; justify-content:center; text-align:center;"}
+
+[**~5.70+**]{style="font-size:150%;"}
+
+million gallons of water saved
+
+:::
+
+::::
+
+::: {style="text-align: center;"}
+[**Stats as of June 2, 2026**]{style="font-size:50%}
+:::
+
 # National Expansion 
 
-# What's Next? 
+In Winter of 2026, the program expanded nationally... 
+
+## University of Vermont 
+
+Elizabeth Opladen led the University of Vermont Zero Waste team to implement the first sister program to UCSB Shoe Recycling. So far, the program has been a success and has inspired the launch of additional recycling programs throughout the campus.
+
+## Santa Barbara City College
+
+Nelly Johanssen from Antioch University held a multi-week drive on the campus of Santa Barbara City College. Though she was only able to collect 22 pairs, she proved the replicability of the program is possible even with just a one-person team! 
+
+# What's Next?
+
+Beginning in June, 2026, the program will be expanding to Loudoun County Public Schools in Northern Virginia. The program will launch at Loudoun County Public High School with the vision of expanding across the district to **18 county high schools**.
+

@@ -1,7 +1,7 @@
 ---
 title: "Personal Project: Analyzing Activity Based On Key Health Factors"
 description: "Analyzing how key factors such as sleep, caffeine intake, & workout type influence overall daily activity measured through the number of steps taken." 
-image:
+image: "../../Images/download.jpeg"
 
 format: 
   html:
@@ -10,3 +10,165 @@ format:
     title-block-banner: true
 ---
 
+# Set Up 
+
+```{r}
+#| label: set-up
+#| message: false
+
+# Reading in necessary packages 
+library(tidyverse)
+library(here)
+library(janitor)
+library(readxl)
+
+# Storing personal data as specificed object 
+step_count <- read_csv(
+  here("data", "MyData_HW3_Format.csv"))
+```
+
+# Personal Data 
+
+### a. Updating Your Visualizations
+```{r}
+# cleaning my data before creating ggplot 
+my_data_clean <- step_count |> 
+  # cleaning names 
+  clean_names() |> 
+  # removing any NA values 
+  filter(!is.na(day_of_the_week))
+
+# creating summary data to find the mean steps per each day of the week 
+my_data_summary <- my_data_clean |> 
+  # grouping the days of the week 
+  group_by(day_of_the_week) |> 
+  # calculating the mean number of steps for each day of the week
+  summarise(mean_steps = mean(total_steps_taken_for_the_day)) |> 
+  # ungrouping the data for good measure
+  ungroup()
+
+# ggplot as base layer 
+ggplot(data = my_data_summary,
+       # designating x and y axis to specified columns within the dataset 
+       mapping = aes(x = fct_relevel(day_of_the_week, 
+                       "Sun", 
+                       "Mon", 
+                       "Tue", 
+                       "Wed", 
+                       "Thurs", 
+                       "Fri", 
+                       "Sat"), y = mean_steps)) + 
+  # Adding first layer 
+  geom_col(fill = "steelblue4",
+           color = "gray20",
+           width = 0.5) +
+  labs(x = "Day of the Week",
+       y = "Total Daily Steps Taken",
+       title = "Average Daily Step Count by Day of the Week",
+       subtitle = "Most Reccent Observation: May 27, 2026") +
+  theme_classic() + 
+  # Customizing plot text and appearance 
+  theme(plot.title = element_text(face = "bold", # bolding the title
+                                  color = "gray10"), #making the title gray
+        plot.subtitle = element_text(color = "gray35"), # choosing color
+        axis.title = element_text(face = "bold"), # bolding the axes
+        axis.text = element_text(color = "gray20")) # axes color
+```
+
+```{r}
+#creating ggplot base layer
+ggplot(data = my_data_clean, 
+       mapping = aes(x = duration_of_sleep_minutes,
+                    y = total_steps_taken_for_the_day)) + 
+  # Adding a QQ plot 
+  geom_point(color = "steelblue4",
+             size = 2,
+             alpha = 0.7,
+             shape = 21) + 
+  # Adding a linear regression trendline 
+  geom_smooth(method = "lm",
+              color = "gray25",
+              fill = "lightblue") +
+  # Adding custom labels for the x and y axis
+  labs(x = "Duration of Sleep (Minutes)",
+       y = "Total Daily Steps Taken",
+       title = "Observing A Potential Relationship Between Total Daily Steps Taken 
+For The Day & the Duration of Sleep Achieved",
+      subtitle = "Most Recent Observation: May 27, 2026") + 
+  # Updating the theme to remove grid lines 
+  theme_classic() + 
+  # Customizing the theme elements 
+  theme(plot.title = element_text(face = "bold", # bolding the title
+                                  color = "gray10"), #making the title gray
+        plot.subtitle = element_text(color = "gray35"), # choosing color
+        axis.title = element_text(face = "bold"), # bolding the axes
+        axis.text = element_text(color = "gray20")) # axes color
+  
+```
+
+### b. Captions 
+
+**Figure 1:** 
+
+Average daily step count grouped by day of the week using observations collected over the course of the observation period. Thursday had the highest average daily step count while Sunday had the lowest average daily step count, suggesting that activity levels varied noticeably depending on the day of the week.
+
+**Figure 2:**
+
+The relationship between sleep duration (minutes) and total daily step count across all observations collected during the study period. The fitted linear regression line suggests a slight negative relationship between sleep duration and daily activity, indicating that higher sleep durations were generally associated with lower total daily step counts.
+
+## Problem 3 - Affective Visualization 
+
+### a. Describe An Affective Visualization 
+
+My affective visualization will explore the relationship between physical activity, recovery, and fatigue using my personal step count and sleep duration data. Rather than presenting the data as a traditional graph, I want to represent each day as an abstract visual form where color intensity and shape communicate how physical exertion and recovery affect each other. Days with high activity and lower sleep will appear more visually dense and harsh, while days with greater recovery will appear softer and more balanced. The goal of the piece is to communicate the emotional and physical rhythm of maintaining activity and recovery over time rather than simply presenting numerical trends.
+
+### b. Create A Sketch 
+
+![](../images/hw3_sketch.png)
+
+### c. Make A Draft 
+
+![](../images/hw3_draft.jpg)
+
+### d. Write An Artist Statement 
+
+**What is the Content?**
+
+The content of my piece represents the relationship between my daily physical activity and recovery patterns over time using my personal step count and sleep duration data. Each vertical mark represents a different day, where the height of the mark reflects my level of activity while the colors communicate variation in energy, recovery, and routine throughout the observation period.
+
+**What were the influences?**
+
+I was influenced by affective data visualization projects such as Dear Data by Giorgia Lupi and Stefanie Posavec ('Week 51, A Week of Privacy'), as well as abstract environmental visualizations that prioritize emotional interpretation over statistical communication. I wanted the visualization to feel expressive rather than structured like a traditional graph.
+
+**What is the form of the work?**
+
+Although the draft shown was created digitally using a sketching app on my iPad, the final version will be on paper and colored pencils will be used to create more natural color gradients. This will also result in softer colors that I feel will aid in conveying the energy of the colors better.
+
+**What was the process for creation?**
+
+I analyzed the total minutes slept each night along with that day's total step count, physical activity performed, as well as the other variables such as caffeine intake to understand how I felt each day. It was interesting to see that a poor night's sleep didn't necessarily affect that day's 'performance' but it effected the following day(s) performance(s). Using this insight, I then decided on colors I wanted to pair how I felt overall each day.  
+
+### e. Prep Your Materials 
+
+View my slides [HERE](https://docs.google.com/presentation/d/12_YXdsN_ER_R2O6HfsSd0gZymbkuY7I5FHKuz1jtyTA/edit?usp=sharing)
+
+## Problem 4 - Statistical Critique 
+
+### a. Revisit and Summarize 
+
+The authors used paired t-tests to evaluate whether acute sleep deprivation significantly affected skeletal muscle protein synthesis and hormone concentrations in young adults. The paired t-test was appropriate because the same participants experienced both the control and sleep deprivation conditions, allowing the authors to directly compare within-subject physiological responses between treatments.
+
+![Figure 1: Comparison of testosterone levels across test subjects between control (CON) and
+deprivation (DEP) conditions where red dots are males and blue dots are females.](../images/sleep_dep_fig.png)
+
+### b. Visual Clarity 
+
+The figure communicates the statistical comparison between the control and sleep deprivation conditions relatively clearly as the x-axis logically separates the two treatment groups while the y-axis quantitatively represents testosterone concentration. Additionally, the authors included the individual data points for each participant rather than only displaying summary statistics, which improves transparency by allowing the reader to observe the spread and variability of the data directly. However, the figure could be improved further by explicitly including confidence intervals or additional statistical annotations to better communicate the magnitude of the differences between conditions.
+
+### c. Aesthetic Clarity
+
+The figure has a relatively strong data:ink ratio because most of the visual elements directly contribute to communicating the underlying data rather than serving "decorative" purposes. The use of simple axes, limited colors, and minimal background elements reduces visual clutter and keeps the viewer focused on the differences between treatment conditions. However, the figure could still be simplified slightly by reducing unnecessary grid emphasis and making the labeling of the treatment groups more visually distinct.
+
+### d. Reccomendations 
+
+One improvement the authors could make would be to include confidence interval bars or effect size information directly on the figure to provide additional statistical context beyond the individual data points alone. Additionally, slightly increasing the contrast between the control and deprivation conditions through more distinct color choices could improve readability and help viewers more quickly distinguish between treatments. Finally, including a short annotation of the statistical test result directly within the figure panel would make it easier for readers to immediately interpret the significance of the observed differences without needing to search through the main text.
