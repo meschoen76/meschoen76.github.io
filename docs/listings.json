@@ -1,6 +1,8 @@
 [
   {
     "listing": "/projects.html",
-    "items": []
+    "items": [
+      "/projects/shoe_recycling.html"
+    ]
   }
 ]
