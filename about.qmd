@@ -1,27 +1,61 @@
 ---
-title: "About Me!"
 toc: false
 body-classes: aboutme-page
 ---
-
 :::{.text-panel}
+
 ## Background 
 
-Originating from a Military family, Matthew Schoen spent first half of his childhood in Fairfax County, VA with a brief stint in Okinawa, Japan, before moving to North County San Diego, CA in 2016. 
+Born into a military family, I spent the first half of my childhood in Fairfax County, Virginia, with a brief stint living in Okinawa, Japan, before moving to North County San Diego in 2016. Growing up, I was fortunate to be influenced by two strong role models: my father, a Captain in the U.S. Navy, and my mother, a nurse. It's through them I learned the importance of hard work, dedication, perseverance, leadership, and service to others - values that continue to guide me today.
 
-The transition from playing in the woods after school to walking along the beach jump-started Matthew's love for the natural environment. Compounded by experiences as a Boy Scout and being a PADI certified advanced open water diver, he decided to pursue a degree in Environmental Studies at the University of California, Santa Barbara. 
-:::
+The transition from exploring the woods of Northern Virginia to spending my days along the Southern California coastline sparked a deep appreciation for the natural environment. Combined with my experiences as a Boy Scout and a PADI Advanced Open Water Diver, this passion ultimately led me to pursue a degree in Environmental Studies at the University of California, Santa Barbara, where I continue to explore solutions to some of today's most pressing environmental challenges.
+
+
 ## Education 
 
+I hold a **B.S. in Environmental Studies** from the University of California, Santa Barbara (UCSB). My four years at UCSB was a whirlwind of fun, challenge, and opportunity. 
+
+I will forever be grateful for the Environmental Studies department professors and faculty for their endless support and mentorship. 
+
+Below are some of the organizations I was apart of as well as some of my achievements: 
+
+### Organizations & Activities 
+
+#### *UCSB Zero Waste Committee*
+##### **Role:** Co-Chair 
+
+#### *A.S. Office of the President*
+##### **Role:** Commissioner of Environmental Sustainability 
+
+The Associated Students Office of the President acts 
+
+#### *Gaucho Racing* 
+##### **Role:**
+
+#### *Sprout Up!* 
+##### **Role:**
 
 
+### Achievements
 
-# Education 
+#### *2026 Environmental Studies Outstanding Senior Award
+
+**About:** This is the highest honor awarded by the department each year and recognizes a graduating senior who exemplifies academic excellence, leadership, service, and meaningful contributions to the Environmental Studies Program and broader community. 
+
+#### UCSB Outstanding Academic Achievement Award 
+
+**About:** The Outstanding Academic Achievement Award is given to graduating seniors have demonstrated exemplary scholastic performance and have received an overall minimum cumulative GPA of 3.75.
+
+#### UCSB Service Award 
+
+**About:** This award recognizes graduating students who have demonstrated a depth of knowledge and contribution in several different areas of campus life. These awards are given in recognition of selfless and dedicated service to the university community.
+
+#### Junior Individual Co-Curricular Award 
+
+**About:** Awarded in recognition of outstanding contributions to the quality of campus life and co-curricular activities through sustained participation and leadership. 
 
 # Interests
 
-
-::: {.text-panel}
 ## *Travel*
 
 So far, I've been fortunate enough to live in 3 continents - *North America, Europe & Asia* - and travel to 10 countries. 
@@ -80,8 +114,16 @@ I believe immersing myself in different cultures, languages, & beliefs is crucia
 
 However, I plan on working abroad for 1-2 years sometime during my 20s! 
 
+## *Fitness*
+
+
+
+## *Cars*
+
+Since I could talk, I've been able to identify any and every type of car on the road. 
+
+## *Track & Field*
+
+
+
 :::
-
-# Hobbies 
-
-
