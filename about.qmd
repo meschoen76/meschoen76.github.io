@@ -112,6 +112,65 @@ I believe immersing myself in different cultures, languages, & beliefs is crucia
 
 However, I plan on working abroad for 1-2 years sometime during my 20s! 
 
+Use the map below to see all the major cities I've traveled to! 
+
+```{r set up}
+#| echo: false
+#| message: false
+library(tidyverse)
+library(leaflet)
+library(leaflet.extras)
+library(here)
+library(janitor)
+
+# reading in data ----
+travel_map_locations <- read.csv(here("data", "travel_map_locations.csv"))
+```
+
+```{r clean data}
+#| echo: false
+travel_map_clean <- travel_map_locations |> 
+  clean_names()
+```
+
+```{r}
+#| echo: false 
+flag_icons <- icons(
+  iconUrl = ~case_when(
+    country == "USA" ~ "Images/flags/US_flag.png",
+    country == "Italy" ~ "Images/flags/Italy_flag.png",
+    country == "France" ~ "Images/flags/France_flag.png",
+    country == "Germany" ~ "Images/flags/Germany_flag.png",
+    country == "United Kingdom" ~ "Images/flags/UK_flag.png",
+    country == "Morocco" ~ "Images/flags/Morocco_flag.png",
+    country == "Guatemala" ~ "Images/flags/Guatemala_flag.png",
+    country == "San Marino" ~ "Images/flags/SanMarino_flag.png",
+    country == "Japan" ~ "Images/flags/Japan_flag.png",
+    TRUE ~ "Images/flags/default.png"
+  ),
+  iconWidth = 30,
+  iconHeight = 20
+)
+```
+
+```{r}
+#| echo: false
+travel_map <- leaflet() %>%
+  addProviderTiles(providers$Esri.WorldImagery) %>%
+  setView(lng = 0, lat = 30,  zoom = 2) %>%
+  addMarkers(data = travel_map_clean,
+             lng = ~longitude,
+             lat = ~latitude,
+             icon = flag_icons,
+             popup = ~paste0("<br>", location, "</b><br>",
+             "Country: ", country, 
+             "Coordinates: ", latitude, ",", longitude))
+
+travel_map
+  
+```
+
+
 ## *Cars*
 
 Since I could talk, I've been able to identify any and every type of car on the road. I love the individuality and freedom a car can provide. Like any car enthusiast, I have a dream list of cars I apsire to own starting with a Porsche 944 Turbo (pictured below), Lexus LFA, & a Ferrari F12 Berlinetta. 
