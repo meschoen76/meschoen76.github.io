@@ -14,11 +14,9 @@ The transition from exploring the woods of Northern Virginia to spending my days
 
 ## Education 
 
-I hold a **B.S. in Environmental Studies** from the University of California, Santa Barbara (UCSB). My four years at UCSB was a whirlwind of fun, challenge, and opportunity. 
+I hold a **B.S. in Environmental Studies** from the University of California, Santa Barbara (UCSB). My four years at UCSB have been a whirlwind of fun, challenge, and opportunity. 
 
 I will forever be grateful for the Environmental Studies department professors and faculty for their endless support and mentorship. 
-
-Below are some of the organizations I was apart of as well as some of my achievements:
 
 ### Organizations & Activities 
 
@@ -167,9 +165,7 @@ travel_map <- leaflet() %>%
              "Coordinates: ", latitude, ",", longitude))
 
 travel_map
-  
 ```
-
 
 ## *Cars*
 
