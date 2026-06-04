@@ -1,4 +1,53 @@
 ---
-title: "Photos"
+format: html
+lightbox: true 
+toc: false
 ---
 
+## Photo Gallery 
+
+One of my hobbies is photography. 
+
+Below are some of the photos I've taken with both my 1970s Canon FTX film camera and my iPhone 15 over the past two years. 
+
+Click on the photos to enlarge them!  
+
+::: {.photo-grid}
+
+![Streets of Marakech](Images/marakesh.jpg){.lightbox group="gallery"}
+
+![Sienna, Italy](Images/sienna.jpg){.lightbox group="gallery"}
+
+![Porsche 944 Turbo](Images/IMG_0252.JPG){.lightbox group="gallery"}
+
+![ATVs in Morocco](Images/atv.jpg){.lightbox group="gallery"}
+
+![Pompeii, Italy](Images/pompeii_background.jpeg){.lightbox group="gallery"}
+
+![Piazza Gae Auilenti, Milano](Images/IMG_6099.JPG){.lightbox group="gallery"}
+
+![Positano, Amalfi Coast, Italy](Images/IMG_5441.jpeg){.lightbox group="gallery"}
+
+![Munich, Germany](Images/IMG_4444.jpeg){.lightbox group="gallery"}
+
+![Top of il Duomo di Milano, Italy](Images/IMG_6104.JPG){.lightbox group="gallery"}
+
+![Streets of Marakech 2](Images/IMG_1374.jpeg){.lightbox group="gallery"}
+
+![Basilica di San Petronio, Bologna, Italy](Images/bolognacatedral.jpg){.lightbox group="gallery"}
+
+![Piazza Gae Auilenti 2, Milano](Images/IMG_6100.JPG){.lightbox group="gallery"}
+
+![Positano 2, Amalfi Coast, Italy](Images/Amalfi.jpg){.lightbox group="gallery"}
+
+![Encinitas, California](Images/IMG_0253.JPG){.lightbox group="gallery"}
+
+![Amalfi, Amalfi Coast, Italy](Images/positano.jpg){.lightbox group="gallery"}
+
+![Hope Ranch, Santa Barbara, California](Images/IMG_0926.JPG){.lightbox group="gallery"}
+
+![Botanical Gardens, Encinitas, California](Images/IMG_0946.JPG){.lightbox group="gallery"}
+
+![Santa Monica, California](Images/IMG_0927.JPG){.lightbox group="gallery"}
+
+:::
