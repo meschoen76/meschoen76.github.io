@@ -1,8 +1,35 @@
 /*-- scss:defaults --*/
 
-/* Importing Fonts from Google */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 
+/*-- scss:defaults --*/
+
+$font-family-base: "Libre Baskerville", serif;
+
+/* Navbar */
+.navbar,
+.navbar-brand,
+.navbar-nav .nav-link {
+  font-family: Charter, "Bitstream Charter", serif;
+  font-weight: 500;
+}
+
+/* Page Titles */
+.quarto-title,
+h1 {
+  font-family: Charter, "Bitstream Charter", serif;
+  font-weight: 600;
+}
+
+/* Section Headings */
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Charter, "Bitstream Charter", serif;
+  font-weight: 500;
+}
 
 /* Default background image */
 .default-page::before {
@@ -172,12 +199,6 @@ p, li, span {
   -webkit-backdrop-filter: blur(6px);
   
   border-bottom: 4px solid rgba(255,255,255,0.4) !important;
-}
-
-.navbar-title {
-  font-size: 1.65rem;
-  font-weight: 600;
-  font-family: 'Cormorant Garamond';
 }
 
 /* Links */

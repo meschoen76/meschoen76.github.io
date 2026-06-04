@@ -10,6 +10,6 @@ listing:
     max-description-length: 150
     date-format: large
 page-layout: full
-title-block-banner: true
+title-block-banner: "#F4C95D"
 ---
 
